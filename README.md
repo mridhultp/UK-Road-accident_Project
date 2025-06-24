@@ -5,7 +5,7 @@ This project presents an analytical overview of road accidents in the United Kin
 ________________________________________
 Project Background
 The primary dataset, originally sourced from the UK government's road safety data portal, includes billions of records collected between 1979 and 2023. The dataset comprises detailed accident information, vehicle types involved, casualty details, and location-wise mappings. Each field in the dataset is encoded using numeric or alphanumeric codes, with corresponding descriptive mappings available in separate lookup tables.
-Given the enormous size and complexity of the data (with over 30 columns and multiple fact tables), working with it presented significant technical and analytical challenges. To maintain relevance and focus, the analysis was restricted to the most recent decade (2014–2023), with the attached dashboard showcasing insights specifically for the year 2014.
+Given the enormous size and complexity of the data (with over 30 columns and multiple fact tables), working with it presented significant technical and analytical challenges. **To maintain relevance and focus, the analysis was restricted to the most recent decade (2014–2023)**, **with the attached dashboard showcasing insights specifically for the year 2014.**
 ________________________________________
 Methodology
 1.	Data Extraction and Cleaning (Python):
@@ -31,7 +31,7 @@ The Power BI dashboard was designed to offer an intuitive and interactive user e
 All visualizations are filtered to display only data from the year 2014, offering a focused view for that period.
 
 
-![image](https://github.com/user-attachments/assets/a028916c-9e1f-4718-81e9-2af32b46686a)
+![image](https://github.com/user-attachments/assets/8d8f6c62-f6ef-4a83-94c1-1d0d97b02ade)
 
 ________________________________________
 Insights and Impact
