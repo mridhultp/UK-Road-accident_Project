@@ -8,15 +8,21 @@ The primary dataset, o**riginally sourced from the UK government's road safety d
 Given the enormous size and complexity of the data (with over 30 columns and multiple fact tables), working with it presented significant technical and analytical challenges. **To maintain relevance and focus, the analysis was restricted to the most recent decade (2014–2023)**.
 ________________________________________
 **Methodology**
-**1.	Data Extraction and Cleaning (Python):
+**
+1.	Data Extraction and Cleaning (Python):
+
 o	The original dataset was imported from the web using Python.
 o	Initial data exploration involved handling missing values, detecting and removing duplicate rows, and correcting inconsistent or corrupt entries.
 o	Data types were standardized, and unnecessary columns were dropped to optimize performance and clarity.
+
 2.	Data Transformation (SQL):
+   
 o	The cleaned dataset was transferred from Python into a PostgreSQL environment for relational data management.
 o	Fact tables (accidents, vehicles, casualties) were joined with their respective lookup tables to convert coded values into meaningful descriptive fields (e.g., road types, weather conditions, vehicle types).
 o	Additional transformations included categorizing continuous variables, filtering by year (2014), and basic aggregations.
+
 3.	Data Integration (Power BI):
+   
 o	Final datasets were imported into Power BI for visualization and reporting.
 o	Three main datasets—Accident, Casualty, and Vehicle—along with lookup mappings were structured into an efficient data model using relationships and custom measures.**
 ________________________________________
