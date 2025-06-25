@@ -31,7 +31,8 @@ The Power BI dashboard was designed to offer an intuitive and interactive user e
 All visualizations are filtered to display only data from the year 2014, offering a focused view for that period.
 
 
-![image](https://github.com/user-attachments/assets/5c10b632-e0aa-4718-ba83-c79e5c2608a9)
+![image](https://github.com/user-attachments/assets/813f9a8f-e22f-4113-b669-32916892590e)
+
 
 
 ________________________________________
