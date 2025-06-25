@@ -55,5 +55,5 @@ Insights and Impact
 ________________________________________
 Conclusion
 This project successfully demonstrates how large-scale, multi-dimensional public datasets can be transformed into actionable insights through a structured pipeline. Leveraging Python for ETL, SQL for transformation, and Power BI for storytelling enabled the creation of a robust analytical dashboard.
-The study not only highlights critical road safety challenges in the UK (specifically in 2014) but also serves as a model for similar public data analytics projects. The insights derived can guide policymakers, transport departments, and public awareness campaigns to reduce accidents and improve road safety.
+The study not only highlights critical road safety challenges in the UK (specifically in 2013 to 2023) but also serves as a model for similar public data analytics projects. The insights derived can guide policymakers, transport departments, and public awareness campaigns to reduce accidents and improve road safety.
 
