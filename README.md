@@ -12,18 +12,23 @@ ________________________________________
 1.	Data Extraction and Cleaning (Python):
 
 o	The original dataset was imported from the web using Python.
+
 o	Initial data exploration involved handling missing values, detecting and removing duplicate rows, and correcting inconsistent or corrupt entries.
+
 o	Data types were standardized, and unnecessary columns were dropped to optimize performance and clarity.
 
 2.	Data Transformation (SQL):
    
 o	The cleaned dataset was transferred from Python into a PostgreSQL environment for relational data management.
+
 o	Fact tables (accidents, vehicles, casualties) were joined with their respective lookup tables to convert coded values into meaningful descriptive fields (e.g., road types, weather conditions, vehicle types).
+
 o	Additional transformations included categorizing continuous variables, filtering by year (2014), and basic aggregations.
 
 3.	Data Integration (Power BI):
    
 o	Final datasets were imported into Power BI for visualization and reporting.
+
 o	Three main datasets—Accident, Casualty, and Vehicle—along with lookup mappings were structured into an efficient data model using relationships and custom measures.**
 ________________________________________
 Design and Visualization
@@ -36,7 +41,8 @@ The Power BI dashboard was designed to offer an intuitive and interactive user e
 •	Geospatial View: A map pinpoints the accident locations across the UK.
 All visualizations are filtered to display only data from the year 2014, offering a focused view for that period.
 
-![image](https://github.com/user-attachments/assets/b495be7f-0bad-481e-9107-d0dcce05071a)
+![image](https://github.com/user-attachments/assets/45a2dc45-761e-4dd1-b8e2-bd1d49b36c49)
+
 
 
 ________________________________________
