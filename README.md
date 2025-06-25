@@ -4,11 +4,11 @@ Introduction
 This project presents an analytical overview of road accidents in the United Kingdom using data-driven insights. The aim is to understand patterns, causes, and severity of accidents, and visualize the trends using advanced business intelligence tools. A comprehensive and scalable data pipeline was created using Python, SQL, and Power BI to analyze one of the largest public road accident datasets available.
 ________________________________________
 Project Background
-The primary dataset, originally sourced from the UK government's road safety data portal, includes billions of records collected between 1979 and 2023. The dataset comprises detailed accident information, vehicle types involved, casualty details, and location-wise mappings. Each field in the dataset is encoded using numeric or alphanumeric codes, with corresponding descriptive mappings available in separate lookup tables.
-Given the enormous size and complexity of the data (with over 30 columns and multiple fact tables), working with it presented significant technical and analytical challenges. **To maintain relevance and focus, the analysis was restricted to the most recent decade (2014–2023)**, **with the attached dashboard showcasing insights specifically for the year 2014.**
+The primary dataset, o**riginally sourced from the UK government's road safety data portal, includes billions of records collected between 1979 and 2023**. The dataset comprises detailed accident information, vehicle types involved, casualty details, and location-wise mappings. Each field in the dataset is encoded using numeric or alphanumeric codes, with corresponding descriptive mappings available in separate lookup tables.
+Given the enormous size and complexity of the data (with over 30 columns and multiple fact tables), working with it presented significant technical and analytical challenges. **To maintain relevance and focus, the analysis was restricted to the most recent decade (2014–2023)**.
 ________________________________________
-Methodology
-1.	Data Extraction and Cleaning (Python):
+**Methodology**
+**1.	Data Extraction and Cleaning (Python):
 o	The original dataset was imported from the web using Python.
 o	Initial data exploration involved handling missing values, detecting and removing duplicate rows, and correcting inconsistent or corrupt entries.
 o	Data types were standardized, and unnecessary columns were dropped to optimize performance and clarity.
@@ -18,7 +18,7 @@ o	Fact tables (accidents, vehicles, casualties) were joined with their respectiv
 o	Additional transformations included categorizing continuous variables, filtering by year (2014), and basic aggregations.
 3.	Data Integration (Power BI):
 o	Final datasets were imported into Power BI for visualization and reporting.
-o	Three main datasets—Accident, Casualty, and Vehicle—along with lookup mappings were structured into an efficient data model using relationships and custom measures.
+o	Three main datasets—Accident, Casualty, and Vehicle—along with lookup mappings were structured into an efficient data model using relationships and custom measures.**
 ________________________________________
 Design and Visualization
 The Power BI dashboard was designed to offer an intuitive and interactive user experience. It includes:
@@ -30,10 +30,7 @@ The Power BI dashboard was designed to offer an intuitive and interactive user e
 •	Geospatial View: A map pinpoints the accident locations across the UK.
 All visualizations are filtered to display only data from the year 2014, offering a focused view for that period.
 
-
-![image](https://github.com/user-attachments/assets/50fd17de-58bc-45bc-b099-67c92d80188b)
-
-
+![image](https://github.com/user-attachments/assets/b495be7f-0bad-481e-9107-d0dcce05071a)
 
 
 ________________________________________
