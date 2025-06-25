@@ -41,7 +41,8 @@ The Power BI dashboard was designed to offer an intuitive and interactive user e
 •	Geospatial View: A map pinpoints the accident locations across the UK.
 All visualizations are filtered to display only data from the year 2014, offering a focused view for that period.
 
-![image](https://github.com/user-attachments/assets/45a2dc45-761e-4dd1-b8e2-bd1d49b36c49)
+![image](https://github.com/user-attachments/assets/04274914-3d6a-41c3-9617-71000379cbe0)
+
 
 
 
