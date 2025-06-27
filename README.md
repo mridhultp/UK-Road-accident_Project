@@ -74,7 +74,8 @@ WHERE
 ** Data Visualization (Power BI)**
 
 
-![image](https://github.com/user-attachments/assets/91050145-555c-4958-8706-b28e14faceb4)
+![image](https://github.com/user-attachments/assets/3a5cc481-8255-4c22-bc1e-eab34defdd10)
+
 
 
 
