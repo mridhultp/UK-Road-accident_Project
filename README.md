@@ -2,7 +2,6 @@
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
 
-unable to upload the .pbix file due to huge size. However, its sommthly working.
 ![image](https://github.com/user-attachments/assets/d4a1b5ca-5cb0-48df-9573-d7dfc2cafabb)
 
 
