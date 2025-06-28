@@ -5,7 +5,7 @@ This project provides a detailed analysis of road accidents in the United Kingdo
 
 **Tools and Technologies Used**
 
-Python (Pandas, NumPy, Matplotlib, Seaborn): Used extensively for data cleaning, preprocessing, and preliminary exploratory analysis.
+Python : Used for data import, cleaning, preprocessing, and preliminary exploratory analysis.
 
 SQL (PostgreSQL): For querying large datasets efficiently and joining multiple relational tables such as accidents, casualties, and vehicles.
 
@@ -15,7 +15,8 @@ GitHub: For version control and documentation of the project.
 
 Jupyter Notebook: Used during the data exploration and transformation phase for detailed analysis and testing of logic.
 
-The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life.
+The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life. inaddion to this, used ChatGPT
+for the project to be done effienlty and promptly.
 
 Accident Trends Over the Years
 Accidents peaked in 2014, while 2020 saw the lowest count—likely due to reduced travel during the pandemic. Despite year-on-year variation, the overall trend highlights key timeframes and geographies with recurring accident hotspots.
@@ -42,4 +43,6 @@ Prioritize early intervention to reduce fatalities at the point of accident.
 Increase traffic enforcement and surveillance at high-risk hours—particularly 2 PM to 6 PM and nighttime.
 
 Focus on rural and single carriageway safety, using smart infrastructure and stricter controls.
+
+**Notes: **
 
