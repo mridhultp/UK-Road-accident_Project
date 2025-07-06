@@ -41,14 +41,13 @@ SQL (PostgreSQL): For querying large datasets efficiently and joining multiple r
 
 Power BI: A dynamic dashboard was built to visualize trends, filter data interactively, and present insights in a user-friendly interface.
 
-GitHub: For version control and documentation of the project.
-
 Jupyter Notebook: Used during the data exploration and transformation phase for detailed analysis and testing of logic.
 
-The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life. inaddion to this, used ChatGPT
-for the project to be done effienlty and promptly.
+GitHub: For documentation of the project.
 
-## Findings
+The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life.
+
+## My Findings
 
 1. The highest number of accidents happened in 2014, while the lowest was in 2020 (Possibly due to covid 19) over the last 10 years.
    
