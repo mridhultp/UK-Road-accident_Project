@@ -26,7 +26,8 @@ Visit the [Official Project Website](https://www.data.gov.uk/dataset/cb7ae6f0-4b
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
 
-![image](https://github.com/user-attachments/assets/7de63bc4-4206-4c46-bd33-dfb12321df25)
+![image](https://github.com/user-attachments/assets/e16bb4ed-8056-454e-825b-1dbd64f63b97)
+
 
 
 
