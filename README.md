@@ -31,7 +31,7 @@ This project provides a detailed analysis of road accidents in the United Kingdo
 
 
 
-**Tools and Technologies Used**
+# Tools and Technologies Used**
 
 Python : Used for data import, cleaning, preprocessing, and preliminary exploratory analysis.
 
@@ -46,7 +46,7 @@ Jupyter Notebook: Used during the data exploration and transformation phase for 
 The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life. inaddion to this, used ChatGPT
 for the project to be done effienlty and promptly.
 
-## Insight
+## Insights
 
 Accident Trends Over the Years
 Accidents peaked in 2014, while 2020 saw the lowest count—likely due to reduced travel during the pandemic. Despite year-on-year variation, the overall trend highlights key timeframes and geographies with recurring accident hotspots.
