@@ -50,8 +50,8 @@ for the project to be done effienlty and promptly.
 
 1. The highest number of accidents happened in 2014, while the lowest was in 2020 (Possibly due to covid 19) over the last 10 years.
    
-# 2. Most number of accident occurs at 4pm to 6 pm in single and dual carriage way in the year from 2013 to 2023.
-   
+**2. Most number of accident occurs at 4pm to 6 pm in single and dual carriage way in the year from 2013 to 2023.   
+
 3. Percentage of  fatal accident is 40.81% at night and 59.19 at daylight.
    
 4. Death rate is more among the age range of  18 to 29 followed by 60+ and range of 30 to 44.
