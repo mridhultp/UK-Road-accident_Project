@@ -76,5 +76,5 @@ Focus on rural and single carriageway safety, using smart infrastructure and str
 
 # Notes:
 
-# I plan to complete the entire analysis and visualization using Python. I'm currently working on it and expect to start the project soon by the end of the july.
+^ I plan to complete the entire analysis and visualization using Python. I'm currently working on it and expect to start the project soon by the end of the july.
 
