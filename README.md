@@ -47,7 +47,7 @@ GitHub: For documentation of the project.
 
 The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life.
 
-## My Findings
+## Findings
 
 1. The highest number of accidents happened in 2014, while the lowest was in 2020 (Possibly due to covid 19) over the last 10 years.
    
