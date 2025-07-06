@@ -46,25 +46,27 @@ Jupyter Notebook: Used during the data exploration and transformation phase for 
 The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life. inaddion to this, used ChatGPT
 for the project to be done effienlty and promptly.
 
-## Insights
+## Findings
 
-Accident Trends Over the Years
-Accidents peaked in 2014, while 2020 saw the lowest count—likely due to reduced travel during the pandemic. Despite year-on-year variation, the overall trend highlights key timeframes and geographies with recurring accident hotspots.
-
-Time, Day & Road Patterns
-Most accidents occurred during 4 PM to 6 PM, especially on single and dual carriageways, aligning with evening rush hours. Saturdays recorded the highest number of fatal incidents, possibly due to increased recreational travel and relaxed vigilance.
-
- Light Conditions and Fatality Rates
-Nighttime accounted for 40.81% of fatal accidents, with 59.19% occurring during daylight. Although visibility is a factor, it’s clear that human behavior and traffic density are major contributors to fatal crashes.
-
-Age, Gender & Casualty Insights
-The 18–29 age group had the highest death rate, followed by 60+ and those aged 30–44. Males had significantly more casualties than females, suggesting a potential area for targeted awareness campaigns.
-
- Speed Limits and Road Types
-Fatalities were most common on roads with speed limits of 30 mph and 60 mph, contributing 33.10% and 34.01% respectively. Single carriageways alone accounted for over 22,000 casualties, highlighting their critical risk level.
-
-Location and Vehicle Analysis
-Cars were involved in the majority of accidents (over 20K incidents). Cornwall recorded the highest number of fatal accidents. Alarmingly, rural areas accounted for 68.95% of deaths, likely due to delayed emergency response and high-speed travel.
+1. The highest number of accidents happened in 2014, while the lowest was in 2020 (Possibly due to covid 19) over the last 10 years.
+   
+# 2. Most number of accident occurs at 4pm to 6 pm in single and dual carriage way in the year from 2013 to 2023.
+   
+3. Percentage of  fatal accident is 40.81% at night and 59.19 at daylight.
+   
+4. Death rate is more among the age range of  18 to 29 followed by 60+ and range of 30 to 44.
+   
+5. Most deaths happened at the road where the speed limit was 30 and 60, making up 33.10% and 34.01% of the total deaths.
+    
+6. Most number of fatal accident and death occurred in Saturdays.
+    
+7. Cars involved in accident over 21K is highest among vehicle type.
+    
+8. Rural area (68.95%) has more death in comparison with urban area.
+    
+9. Most number of fatal accident occurred in Cornwall.
+    
+10. Male had more casualties than female.
 
 **Recommendations**
 
