@@ -2,7 +2,7 @@
 
 # Summary
 
-I use ld original data set for analysis. It was a challenging task as it is a huge file contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is a mixture of categorical and numerical data. 
+I used original data set for analysis from the below government official web site. It was a challenging task as it is a huge file contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is a mixture of categorical and numerical data. 
 
 The above table has been imported from web to python and cleaned data set. Fact tables contain the uk road accident data from  1979 to 2023. We have considered only recent decade of data for the study.
 
