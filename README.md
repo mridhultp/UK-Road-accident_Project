@@ -12,14 +12,16 @@ In sql , we have mapped the lookup table with fact table inorder to replace the 
 
 Then, I imported three dataset to power bi for visualization and answer our questions.
 
-[]([url](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-accidents-safety-data))
 
-Accident dataset
-Casuality data set
-Vehicle data set 
-Look up data set
+1. Accident dataset
 
+2. Casuality data set
+   
+3. Vehicle data set
+   
+4. Look up data set
 
+Visit the [Official Project Website](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-accidents-safety-data) for more details.
 
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
