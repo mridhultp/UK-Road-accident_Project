@@ -4,9 +4,9 @@
 
 I used original data set for analysis from the below government official web site. It was a challenging task as it is a huge file contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is mixed up with categorical and numerical data. 
 
-The above table has been imported from web to python and cleaned data set. Fact tables contain the uk road accident data from  1979 to 2023. We have considered only recent decade of data for the study.
+The below files have been imported from web to python and cleaned. Fact tables contain the uk road accident,casuality and vehicle data from  1979 to 2023. We have considered only recent decade of data for the analysis.
 
-After data exploration and removing duplicates and manipulate null values and other additional task data set exported from python to sql.
+ Data set exported from python to sql post data exploration , removing duplicates and manipulation and other additional task.
 
 In sql , we have mapped the lookup table with fact table inorder to replace the coded data to Descriptive data. Additionally, some of the basic data manipulation has been done without loosing the accuracy of data.
 
