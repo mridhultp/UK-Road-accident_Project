@@ -1,5 +1,27 @@
 **UK Road Accident Analysis (2013–2023)**
 
+# Summary
+
+I use ld original data set for analysis. It was a challenging task as it is a huge file contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is a mixture of categorical and numerical data. 
+
+The above table has been imported from web to python and cleaned data set. Fact tables contain the uk road accident data from  1979 to 2023. We have considered only recent decade of data for the study.
+
+After data exploration and removing duplicates and manipulate null values and other additional task data set exported from python to sql.
+
+In sql , we have mapped the lookup table with fact table inorder to replace the coded data to Descriptive data. Additionally, some of the basic data manipulation has been done without loosing the accuracy of data.
+
+Then, I imported three dataset to power bi for visualization and answer our questions.
+
+[]([url](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-accidents-safety-data))
+
+Accident dataset
+Casuality data set
+Vehicle data set 
+Look up data set
+
+
+
+
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
 
 ![image](https://github.com/user-attachments/assets/3411bd71-1438-4340-93f8-642f34459db1)
