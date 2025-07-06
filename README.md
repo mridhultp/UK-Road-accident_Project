@@ -46,6 +46,8 @@ Jupyter Notebook: Used during the data exploration and transformation phase for 
 The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life. inaddion to this, used ChatGPT
 for the project to be done effienlty and promptly.
 
+## Insight
+
 Accident Trends Over the Years
 Accidents peaked in 2014, while 2020 saw the lowest count—likely due to reduced travel during the pandemic. Despite year-on-year variation, the overall trend highlights key timeframes and geographies with recurring accident hotspots.
 
@@ -72,7 +74,7 @@ Increase traffic enforcement and surveillance at high-risk hours—particularly 
 
 Focus on rural and single carriageway safety, using smart infrastructure and stricter controls.
 
-**Notes: **
+# Notes:
 
-I plan to complete the entire analysis and visualization using Python. I'm currently working on it and expect to start the project soon by the end of the july.
+# I plan to complete the entire analysis and visualization using Python. I'm currently working on it and expect to start the project soon by the end of the july.
 
