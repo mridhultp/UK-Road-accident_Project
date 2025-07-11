@@ -78,6 +78,7 @@ Increase traffic enforcement and surveillance at high-risk hours—particularly 
 Focus on rural and single carriageway safety, using smart infrastructure and stricter controls.
 
 # Notes:
+I could have done the entire analysis by using Postgres and Power bi but have an another plan. hence used python.
 
 ^ I plan to complete the entire analysis and visualization using Python. I'm currently bussy with other works and expect to start this project soon by the end of the july.
 
