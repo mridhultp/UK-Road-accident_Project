@@ -21,13 +21,11 @@ Then, I imported three dataset to power bi for visualization and answer our ques
    
 4. Look up data set
 
-<img width="1298" height="725" alt="image" src="https://github.com/user-attachments/assets/4499d309-b6e5-4771-80b3-4268a2e3479c" />
-
-
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
 
-<img width="1307" height="728" alt="image" src="https://github.com/user-attachments/assets/f79b7894-5110-49f9-994f-b91fb8e8b200" />
+<img width="1298" height="725" alt="image" src="https://github.com/user-attachments/assets/c5359fbd-d685-4948-995c-af9760ec2f70" />
+
 
 
 
