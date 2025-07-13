@@ -21,7 +21,8 @@ Then, I imported three dataset to power bi for visualization and answer our ques
    
 4. Look up data set
 
-Visit the [Official Project Website](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-accidents-safety-data) for more details.
+<img width="1298" height="725" alt="image" src="https://github.com/user-attachments/assets/4499d309-b6e5-4771-80b3-4268a2e3479c" />
+
 
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
