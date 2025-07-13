@@ -2,7 +2,7 @@
 
 # Summary
 
-I used original data set for analysis from the below government official web site. It was a challenging task as it is a huge file contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is mixed up with categorical and numerical data. 
+I used original dataset from the below government official web site for analysis instead of downloading cleaned one from Kaggle. It was a challenging task as it had huge files contained billions of rows and 30 pluse column in a single file. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is mixed up with categorical and numerical data. 
 
 The below files have been imported from web to python and cleaned. Fact tables contain the uk road accident,casuality and vehicle data from  1979 to 2023. We have considered only recent decade of data for the analysis.
 
@@ -20,6 +20,9 @@ Then, I imported three dataset to power bi for visualization and answer our ques
 3. Vehicle data set
    
 4. Look up data set
+
+> **Dataset Title:** Road accidents and safety statistics  
+> **Source:** [UK Government Open Data Portal](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-accidents-safety-data)
 
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
@@ -80,5 +83,5 @@ Focus on rural and single carriageway safety, using smart infrastructure and str
 # Notes:
 I could have done the entire analysis by using Postgres and Power bi but have an another plan. hence used python.
 
-^ I plan to complete the entire analysis and visualization using Python. I'm currently bussy with other works and expect to start this project soon by the end of the july.
+^ I plan to complete the entire analysis and visualization using Python since power bi desktop vesrion has some limtation using visuals. I'm currently bussy with other works and expect to start this project soon.
 
