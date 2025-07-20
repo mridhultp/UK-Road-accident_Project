@@ -87,9 +87,9 @@ I could have done the entire analysis by using Postgres and Power bi but have an
 ^ I plan to complete the entire analysis and visualization using Python since power bi desktop vesrion has some limtation using visuals. I'm currently bussy with other works and expect to start this project soon.
 
 
-## Accident Data Exploration with SQL
+# Accident Data Exploration with SQL
 
---0 To get the first two latest incidents of accident based on the Accident severity
+## 0 To get the first two latest incidents of accident based on the Accident severity
 
 select * 
 from 
@@ -97,7 +97,7 @@ from
 where x.rn <3
 
 
--- 1 select accident table
+## 1 select accident table
 
 select * 
 
@@ -113,7 +113,7 @@ from
 
 accident_10years
 
--- 3 Total number of accident,casuality and vehicle involved?
+## 3 Total number of accident,casuality and vehicle involved?
 
 select count(*)as accident, sum(number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
@@ -122,7 +122,7 @@ from
 
 accident_10years
 
--- 4 what is the total number of year by year accdent and casuality and vehicle involved in the accident?
+## 4 what is the total number of year by year accdent and casuality and vehicle involved in the accident?
 
 select accident_year,  to_char(count(*), '99,99,999') as number_of_accident , sum(number_of_casualties)as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
@@ -133,7 +133,8 @@ accident_10years
 group by accident_year
 
 
--- 5 Accident by severity - 'fatal - atleast one death of a incident is considered as fatal'
+## 5 Accident by severity - 'fatal - atleast one death of a incident is considered as fatal'
+
 --(This means the casualty count in the accidents table is a total
 --for instance, fatal accident consist of all level severity with atleast 1 death )
 
@@ -147,7 +148,7 @@ where accident_severity_1 = 'Fatal'
 group by accident_year
 
 
--- 6 Accident by severity - 'Serious (There will not be have any death but consit of slight and seriously inured)
+## 6 Accident by severity - 'Serious (There will not be have any death but consit of slight and seriously inured)
 
 select accident_year, count (*) as number_of_serious_Accident, sum (number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
@@ -159,7 +160,7 @@ where accident_severity_1 = 'Serious'
 group by accident_year
 
 
---7 Accident by severity - 'Serious (There will not be have any death or serious injury but consit of slightly inured)
+## 7 Accident by severity - 'Serious (There will not be have any death or serious injury but consit of slightly inured)
 
 
 select accident_year, count (*) as number_of_Slight_Accident, sum (number_of_casualties) as number_of_casualties,
@@ -173,7 +174,7 @@ group by accident_year
 
 
 
--- 8 Slight accident details + Grand Total
+## 8 Slight accident details + Grand Total
 
 select 
 
@@ -202,7 +203,7 @@ from accident_10years
 where accident_severity_1 = 'Slight';
 
 
--- 9 Accident by road_type
+##  9 Accident by road_type
 
 select accident_year,count(*)as  Single_carriageway
 from accident_10years
@@ -251,7 +252,7 @@ GROUP BY accident_year, road_type_1
 ORDER BY accident_year, road_type_1;
 
 
--- 11 Total Casualty by day_of_week_1
+## 10 Total Casualty by day_of_week_1
 
 select 
 	accident_year,
@@ -270,7 +271,7 @@ group by accident_year
 order by accident_year;
 
 
--- 11 Total Casualty by speed_limit (assume -1 as 10)
+## 11 Total Casualty by speed_limit (assume -1 as 10)
 
 select 
 
@@ -290,7 +291,7 @@ group by accident_year
 order by accident_year;
 
 
---12 find the number of Fatal accdent that has more than 20 casuality?
+## 12 find the number of Fatal accdent that has more than 20 casuality?
 
 select * 
 
@@ -302,7 +303,7 @@ where number_of_casualties >20 and accident_severity_1 = 'Fatal'
 
 order by number_of_casualties desc
 
--- 13  find the 15 most number of fatal accdent and casualities?
+## 13  find the 15 most number of fatal accdent and casualities?
 
 select *
 
