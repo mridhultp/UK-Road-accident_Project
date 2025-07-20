@@ -89,7 +89,7 @@ I could have done the entire analysis by using Postgres and Power bi but have an
 
 # Accident Data Exploration with SQL
 
-## 0 To get the first two latest incidents of accident based on the Accident severity
+##  0 To get the first two latest incidents of accident based on the Accident severity
 
 select * 
 from 
@@ -105,7 +105,7 @@ from
 
 accident_10years
 
--- 2 Count of accident table
+##  2 Count of accident table
 
 select distinct count (*) 
 
