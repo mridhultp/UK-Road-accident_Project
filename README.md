@@ -113,7 +113,7 @@ from
 
 accident_10years
 
-## 3 Total number of accident,casuality and vehicle involved?
+## 3 Total incidents of accident, number of casualty and vehicle involved?
 
 select count(*)as accident, sum(number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
@@ -122,7 +122,7 @@ from
 
 accident_10years
 
-## 4 what is the total number of year by year accdent and casuality and vehicle involved in the accident?
+## 4 what is the total number of year by year accident and casualty and vehicle involved in the incident?
 
 select accident_year,  to_char(count(*), '99,99,999') as number_of_accident , sum(number_of_casualties)as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
