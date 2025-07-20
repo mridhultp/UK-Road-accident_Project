@@ -92,10 +92,14 @@ I could have done the entire analysis by using Postgres and Power bi but have an
 --0 To get the first two latest incidents of accident based on the Accident severity
 
 select *
+
 from (
 	select 
+ 
 	row_number() over(partition by accident_severity_1 order by accident_year desc) as rn, a.*
+ 
 	from
+ 
 	accident_10years a) x
 
 where x.rn <3
@@ -104,20 +108,26 @@ where x.rn <3
 -- 1 select accident table
 
 select * 
+
 from
+
 accident_10years
 
 -- 2 Count of accident table
 
 select distinct count (*) 
+
 from
+
 accident_10years
 
 -- 3 Total number of accident,casuality and vehicle involved?
 
 select count(*)as accident, sum(number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
+
 from
+
 accident_10years
 
 -- 4 what is the total number of year by year accdent and casuality and vehicle involved in the accident?
@@ -125,7 +135,9 @@ accident_10years
 select accident_year,  to_char(count(*), '99,99,999') as number_of_accident , sum(number_of_casualties)as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
 from
+
 accident_10years
+
 group by accident_year
 
 
@@ -135,8 +147,11 @@ group by accident_year
 
 select accident_year, count (*) as number_of_fatal_Accident, sum (number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
+
 from accident_10years
+
 where accident_severity_1 = 'Fatal'
+
 group by accident_year
 
 
@@ -144,8 +159,11 @@ group by accident_year
 
 select accident_year, count (*) as number_of_serious_Accident, sum (number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
+
 from accident_10years
+
 where accident_severity_1 = 'Serious'
+
 group by accident_year
 
 
@@ -154,32 +172,41 @@ group by accident_year
 
 select accident_year, count (*) as number_of_Slight_Accident, sum (number_of_casualties) as number_of_casualties,
 sum(number_of_vehicles) as number_of_vehicles
-from accident_10years
-where accident_severity_1 = 'Slight'
-group by accident_year
 
+from accident_10years
+
+where accident_severity_1 = 'Slight'
+
+group by accident_year
 
 
 
 -- 8 Slight accident details + Grand Total
 
 select 
+
   accident_year::text as accident_year,
   count(*) as number_of_slight_accident,
   sum(number_of_casualties) as number_of_casualties,
   sum(number_of_vehicles) as number_of_vehicles
+  
 from accident_10years
+
 where accident_severity_1 = 'Slight'
+
 group by accident_year
 
 union all
 
 select 
+
   'Total' as accident_year,
   count(*) as number_of_slight_accident,
   sum(number_of_casualties),
   sum(number_of_vehicles)
+  
 from accident_10years
+
 where accident_severity_1 = 'Slight';
 
 
@@ -187,13 +214,16 @@ where accident_severity_1 = 'Slight';
 
 select accident_year,count(*)as  Single_carriageway
 from accident_10years
+
 where road_type_1 = 'Single carriageway' 
+
 group by accident_year
 
 -- 10 Total Casualty by road_type
 
 
 select
+
   accident_year,
   sum(number_of_casualties) filter (where road_type_1 = 'Single carriageway') AS single_carriageway,
   sum(number_of_casualties) filter (where road_type_1 = 'Dual carriageway') AS dual_carriageway,
@@ -201,17 +231,22 @@ select
   sum(number_of_casualties) filter (where road_type_1 = 'Roundabout') AS roundabout,
   sum(number_of_casualties) filter (where road_type_1 = 'Slip road') AS slip_road,
   SUM(number_of_casualties) FILTER (WHERE road_type_1 = 'Unknown') AS unknown
+  
 from accident_10years
+
 group by accident_year
+
 order by accident_year;
 
 --or 
 
 SELECT 
+
   accident_year,
   road_type_1,
   SUM(number_of_casualties) AS total_casualties
 FROM accident_10years
+
 WHERE road_type_1 IN (
   'Dual carriageway',
   'One way street',
@@ -235,14 +270,18 @@ select
 	sum(number_of_casualties)filter(where day_of_week_1 = 'Thursday') as Thursday,
 	sum(number_of_casualties)filter(where day_of_week_1 = 'Friday') as Friday,
 	sum(number_of_casualties)filter(where day_of_week_1 = 'Saturday') as Saturday
+ 
 from accident_10years
+
 group by accident_year
+
 order by accident_year;
 
 
 -- 11 Total Casualty by speed_limit (assume -1 as 10)
 
 select 
+
 	accident_year,
 	sum(number_of_casualties)filter(where speed_limit = '-1') as limit_10,
 	sum(number_of_casualties)filter(where speed_limit = '20') as limit_20,
@@ -251,29 +290,37 @@ select
 	sum(number_of_casualties)filter(where speed_limit = '50') as limit_50,
 	sum(number_of_casualties)filter(where speed_limit = '60') as limit_60,
 	sum(number_of_casualties)filter(where speed_limit = '70') as limit_70
+ 
 from accident_10years
+
 group by accident_year
+
 order by accident_year;
-
-
 
 
 --12 find the number of Fatal accdent that has more than 20 casuality?
 
 select * 
+
 from 
+
 accident_10years
+
 where number_of_casualties >20 and accident_severity_1 = 'Fatal'
+
 order by number_of_casualties desc
 
 -- 13  find the 15 most number of fatal accdent and casualities?
 
 select *
+
 from
+
 (select a.*, 
 row_number() over(partition by accident_severity_1 order by number_of_casualties desc ) as rn
 from accident_10years a
 where accident_severity_1 = 'Fatal' ) as x
+
 where x.rn < 16
 
 --
