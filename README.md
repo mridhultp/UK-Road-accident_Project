@@ -93,8 +93,12 @@ I could have done the entire analysis by using Postgres and Power bi but have an
 ##  0 To get the first two latest incidents of accident based on the Accident severity
 
 select * 
+
 from 
-( select row_number() over(partition by accident_severity_1 order by accident_year desc) as rn, a.* from accident_10years a) x 
+
+( select row_number() over(partition by accident_severity_1 order by accident_year desc) as rn,
+ a.* from accident_10years a) x 
+
 where x.rn <3
 
 
