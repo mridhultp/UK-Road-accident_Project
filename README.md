@@ -291,7 +291,7 @@ group by accident_year
 order by accident_year;
 
 
-## 12 find the number of Fatal accdent that has more than 20 casuality?
+## 12 find the number of Fatal accident incident that has more than 20 casuality?
 
 select * 
 
@@ -303,7 +303,7 @@ where number_of_casualties >20 and accident_severity_1 = 'Fatal'
 
 order by number_of_casualties desc
 
-## 13  find the 15 most number of fatal accdent and casualities?
+## 13  find the 15 most number of fatal accident incident and casualities?
 
 select *
 
