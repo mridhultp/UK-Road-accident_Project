@@ -43,39 +43,44 @@ This project provides a detailed analysis of road accidents in the United Kingdo
 
 # Tools and Technologies Used**
 
-Python : Used for data import, cleaning, preprocessing, and preliminary exploratory analysis.
+Python (Jupyter Notebook) : Used for data import, cleaning, preprocessing, and preliminary exploratory analysis. Connect with postgresQL.
 
 SQL (PostgreSQL): For querying large datasets efficiently and joining multiple relational tables such as accidents, casualties, and vehicles.
+                  Feature encoding.
 
-Power BI: A dynamic dashboard was built to visualize trends, filter data interactively, and present insights in a user-friendly interface.
-
-Jupyter Notebook: Used during the data exploration and transformation phase for detailed analysis and testing of logic.
+Power BI: A dynamic dashboard was built to visualize trends, filter data interactively, and present insights.
 
 GitHub: For documentation of the project.
 
 The combination of Python and SQL enabled deep exploration of data, while Power BI helped in building a high-impact, interactive visual dashboard that brings those insights to life.
 
+
+**Tried to answer the following.**
+
+Accident Trends for a decade from the year of 2013 to 2023?
+Special Focus on the year the greatest number of accident and causality occurred.
+Compare with other years and City-wise Accidents, Casualties and death.
+Correlation between fatal accident and causalities.
+Analyze city-wise Accident and casualties (fatal and non-fatal).
+Soloutions (if any)
+
 ## Findings
 
-1. The highest number of accidents happened in 2014, while the lowest was in 2020 over the last 10 years.
-   
- #### 2. Most number of accident occurs at 4pm to 6 pm and single and dual carriage way in the year from 2013 to 2023.   
+1.	From 2014 to 2023, a total of 11 million accidents were recorded, resulting in 15 million casualties and involving 21 million vehicles.
+2.	The highest number of accidents and causality happened in 2014, while the lowest was in 2020 over the last 10 years.
+3.	The highest number of fatal accidents and causality occurred in 2016, while the lowest was in 2020.
+4.	Most number of accidents in Birmingham from 2014 to 2023.
+5.	Most number of fatal accidents occurred in Cornwall.
+6.	Cars involved in accident over 10M is highest among vehicle type. 
+7.	 The highest number of deaths were recorded among riders or drivers (appro 10,000), followed by passengers and pedestrians.
+8.	Most deaths happened at the road where the speed limit was 30 and 60, making up 33.10% and 34.01% of the total deaths.
+9.	Percentage of fatal accident is 40.81% at night and 59.19 at daylight.
+10.	Male had more casualties than female.
+11.	Most number of accidents occurs at 4pm to 6 pm and single and dual carriage way in the year from 2014 to 2023.
+12.	Death rate is more among the age range of 18 to 29 followed by 60+ and range of 30 to 44.
+13.	Most number of fatal accident and death occurred in Saturdays.
+14.	Rural area (68.95%) has more death in comparison with urban area.
 
-3. Percentage of  fatal accident is 40.81% at night and 59.19 at daylight.
-   
-4. Death rate is more among the age range of  18 to 29 followed by 60+ and range of 30 to 44.
-   
-5. Most deaths happened at the road where the speed limit was 30 and 60, making up 33.10% and 34.01% of the total deaths.
-    
-6. Most number of fatal accident and death occurred in Saturdays.
-    
-7. Cars involved in accident over 21K is highest among vehicle type.
-    
-8. Rural area (68.95%) has more death in comparison with urban area.
-    
-9. Most number of fatal accident occurred in Cornwall.
-    
-10. Male had more casualties than female.
 
 **Recommendations**
 
