@@ -4,11 +4,11 @@
 
 I used original dataset from the below government official web site for analysis instead of downloading cleaned one from Kaggle. It was a challenging task as it had huge files contained billions of rows and 30 pluse column in Multipe files. Every  fact table column was recorded with unique code and corresponding code description is available in the look up table. The table is mixed up with categorical and numerical data. 
 
-The below files have been imported from web to python and cleaned. Fact tables contain the uk road accident,casuality and vehicle data from  1979 to 2023. We have considered only recent decade of data for the analysis.
+The below files have been imported from web to jupyter notebook and cleaned. Fact tables contain the uk road accident,casuality and vehicle data from  1979 to 2023. We have considered only recent decade of data for the analysis.
 
- Data set exported from python to sql post data exploration , removing duplicates and manipulation and other additional task.
+Each table exported from sql using jupyter notebook post data exploration , removing duplicates and manipulation and other additional task.However, a detailed feature engineering has not been done.
 
-In sql , we have mapped the lookup table with fact table inorder to replace the coded data to Descriptive data. Additionally, some of the basic data manipulation has been done without loosing the accuracy of data.
+In sql , I have mapped the lookup table with fact table inorder to replace the coded data to Descriptive data. Additionally, some of the basic data manipulation has been done without loosing the accuracy of data.
 
 Then, I imported three dataset to power bi for visualization and answer our questions.
 
@@ -95,7 +95,9 @@ Increase traffic enforcement and surveillance at high-risk hours—particularly 
 
 Focus on rural and single carriageway safety, using smart infrastructure and stricter controls.
 
+**Notes**:
 
+Feature engineering and removal of unnecessary columns were not carried out to allow future reuse of the datasets, which has led to larger file sizes.
 
 # Analysis Overview!?
 
