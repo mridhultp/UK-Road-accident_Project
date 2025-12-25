@@ -31,10 +31,12 @@ Then, I imported three dataset to power bi for visualization and answer our ques
 
 This project provides a detailed analysis of road accidents in the United Kingdom over a ten-year span, from 2013 to 2023. By exploring various dimensions such as time, location, weather, road conditions, demographics, and vehicle types, it aims to uncover patterns in accident severity and identify critical risk factors that influence fatalities.
 
-<img width="1320" height="800" alt="image" src="https://github.com/user-attachments/assets/35508592-2e0a-48e3-bfc7-4d1ed0dfa0da" />
+<img width="1317" height="741" alt="image" src="https://github.com/user-attachments/assets/38218ce1-6d8c-4b0e-a56c-388f7d8c54fa" />
 
 
-<img width="1327" height="738" alt="image" src="https://github.com/user-attachments/assets/0782b75a-d86c-4143-8bf8-0b93da60af58" />
+
+<img width="1321" height="740" alt="image" src="https://github.com/user-attachments/assets/85799674-f0ca-472a-9e41-bd2a3c5ee59f" />
+
 
 
 
