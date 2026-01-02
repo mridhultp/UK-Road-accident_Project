@@ -65,11 +65,16 @@ The combination of Python and SQL enabled deep exploration of data, while Power 
 **Tried to answer the following.**
 
 Accident Trends for a decade from the year of 2013 to 2023?
+
 Special Focus on the year the greatest number of accident and causality occurred.
+
 Compare with other years and City-wise Accidents, Casualties and death.
+
 Correlation between fatal accident and causalities.
+
 Analyze city-wise Accident and casualties (fatal and non-fatal).
-Soloutions (if any)
+
+Soloutions / recommendations (if any)
 
 ## Findings
 
