@@ -1,4 +1,7 @@
-**UK Road Accident Analysis (2013–2023) **
+**UK Road Accident Analysis (2013–2023) ** 
+Power BI - Dashboard
+Postgresql : Data base
+Python : Data collection, cleaning and preprocessing
 
 # Summary
 
